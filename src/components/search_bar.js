@@ -16,6 +16,7 @@ export default class SearchBar extends Component {
         <input
         value={this.state.term} 
         onChange={e => this.onInputChange(e.target.value)}
+        placeholder="Search for videos..."
         />
       </div>
     );
