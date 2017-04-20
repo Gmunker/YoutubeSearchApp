@@ -1,25 +1,7 @@
-# ReduxSimpleStarter
+#### Project from the "Modern React and Redux" course on Udemy by Stphen Grider.
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This project is a simple but fast youtube search engine, which allows for real time searching, and video playback all in one page with no reload time.
 
-### Getting Started
+You can find this project at: [https://youtubesearchapp.herokuapp.com](https://youtubesearchapp.herokuapp.com)
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+Please allow up to 30seconds for load times, this is hosted on Heroku's free platform.

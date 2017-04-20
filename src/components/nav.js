@@ -9,7 +9,7 @@ const courseLink = "https://www.udemy.com/react-redux/learn/v4/content"
             <div className="credits">
               <h2>Created by: </h2>
               <h2>Greg Munker</h2>
-              <h2><a className="github-link" href="https://github.com/Gmunker/ReactMarkdown">(GitHub Repo)</a></h2>
+              <h2><a className="github-link" href="https://github.com/Gmunker/YoutubeSearchApp">(GitHub Repo)</a></h2>
               <div className="social-buttons expanded button-group">
                   <a className="button secondary" href="http://www.facebook.com/gmunker" target="_blank">Facebook</a>
                   <a className="button secondary" href="https://plus.google.com/u/0/+GregMunker" target="_blank">Google+</a>
