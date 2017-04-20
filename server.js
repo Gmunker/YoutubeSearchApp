@@ -13,7 +13,16 @@ app.use((req, res, next) => {
 });
 
   app.use(express.static(__dirname));
-  app.get('*', (req, res) => {
+  app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
   });
-  app.listen(PORT, () => console.log(`Express server is u on port ${PORT}`));
+  
+  app.listen(PORT, () => {
+    let port = "";
+    if (process.env.PORT) {
+      port = JSON.stringify(process.env.PORT);
+    } else {
+      port = 3000;
+    }
+    console.log(`Express server is u on port ${PORT}`)
+});
