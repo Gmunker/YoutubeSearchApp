@@ -5,9 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/Gmunker/YoutubeSearchApp.git",
   "scripts": {
-    "start": "webpack -p",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch"
+    "start": "webpack -p && node server.js",
+    "server": "node server.js",
+    "heroku": "git push heroku master"
   },
   "author": "Greg Munker",
   "license": "ISC",
