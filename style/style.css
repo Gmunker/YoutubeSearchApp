@@ -1,0 +1,87 @@
+
+
+.search-bar { 
+  margin:20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 75%;
+  height: 40px;
+  font-size: 30px;
+  background-color: #eee;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.video-detail-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.list-group-item {
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
+
+.list-group-item-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.top-bar {
+  padding: 0;
+}
+
+.top-bar h1 {
+  font-size: 40px;
+  word-spacing: 1px;
+  text-align: center;
+}
+
+.top-bar .fcc-flame-icon {
+  height: 75px;
+}
+
+.top-bar .fcc-title {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.top-bar .credits {
+  text-align: center;
+}
+
+.top-bar .credits h2 {
+  font-size: 12px;
+}
+
+.top-bar .credits .social-buttons {
+  display: flex;
+}
+
+.top-bar .credits .social-buttons a {
+  margin: 0;
+}
+
+.nav-buttons {
+  display: flex;
+}
+
+.nav-buttons .button {
+  margin-top: 10px;
+  font-size: 18px;
+}
