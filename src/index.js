@@ -37,7 +37,6 @@ class App extends Component {
     const videoSearch = _.debounce((term) => {this.videoSearch(term) }, 600);
 
     return (
-
       <div>
       <NavBar />
         <SearchBar onSearchTermChange={videoSearch} />
